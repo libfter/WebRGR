@@ -48,12 +48,12 @@ npm run dev
 | POST | /api/authenticate |
 | GET | /api/user/me |
 | GET | /api/media/list |
-| GET | /api/media/stream/<filename> |
+| GET | /api/media/stream/{filename} |
 | POST | /api/media/upload |
-| DELETE | /api/media/<id> |
-| GET | /api/media/<id>/comments |
-| POST | /api/media/<id>/comments |
-| POST | /api/comments/<id>/like |
+| DELETE | /api/media/{id} |
+| GET | /api/media/{id}/comments |
+| POST | /api/media/{id}/comments |
+| POST | /api/comments/{id}/like |
 
 ## Аккаунт админа
 
